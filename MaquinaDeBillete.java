@@ -9,7 +9,7 @@
  * @author David J. Barnes and Michael Kölling
  * @version 2011.07.31
  */
-public class MaquinaDeTicket
+public class MaquinaDeBillete
 {
     // The price of a ticket from this machine.
     private int precio;
@@ -23,7 +23,7 @@ public class MaquinaDeTicket
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeTicket(int coste)
+    public MaquinaDeBillete(int coste)
     {
         precio = coste;
         balance = 0;
@@ -60,7 +60,7 @@ public class MaquinaDeTicket
      * Update the total collected and
      * reduce the balance to zero.
      */
-    public void imprimirTicket()
+    public void imprimirBillete()
     {
         // Simulate the printing of a ticket.
         System.out.println("##################");
