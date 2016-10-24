@@ -79,6 +79,9 @@ public class MaquinaDeBillete
 	{
 	    return total;
 	}
+	public void establecerPrecio(int nuevoPrecio)
+	{
+	    precio = nuevoPrecio;
+	}
   
- 
 }
