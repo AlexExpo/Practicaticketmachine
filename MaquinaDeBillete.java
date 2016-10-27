@@ -97,5 +97,9 @@ public class MaquinaDeBillete
 	{
 	    System.out.println("El precio del billete es " + precio + " euros.");
 	}
+	public void vaciarMaquina()
+	{
+	    total = 0;
+	}
   
 }
