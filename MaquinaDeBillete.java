@@ -83,5 +83,9 @@ public class MaquinaDeBillete
 	{
 	    precio = nuevoPrecio;
 	}
+	public void inmediato()
+	{
+	    System.out.println("Por favor, introduzca la cantidad correcta de dinero.");
+	}
   
 }

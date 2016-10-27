@@ -1,12 +1,12 @@
 
-public class TrainStation
+public class EstacionDeTren
 {
     private MaquinaDeBillete maquina1;
     private MaquinaDeBillete maquina2;
     private int dineroTotal;
     private int balance;
 
-    public TrainStation()
+    public EstacionDeTren()
     {
         maquina1 = new MaquinaDeBillete(300);
         maquina2 = new MaquinaDeBillete(200);
