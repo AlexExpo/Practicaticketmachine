@@ -23,9 +23,9 @@ public class MaquinaDeBillete
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeBillete(int coste)
+    public MaquinaDeBillete()
     {
-        precio = coste;
+        precio = 800;
         balance = 0;
         total = 0;
     }
@@ -83,7 +83,7 @@ public class MaquinaDeBillete
 	{
 	    precio = nuevoPrecio;
 	}
-	public void inmediato()
+	public void mostrarAviso()
 	{
 	    System.out.println("Por favor, introduzca la cantidad correcta de dinero.");
 	}
