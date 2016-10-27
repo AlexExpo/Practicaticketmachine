@@ -28,4 +28,4 @@ public class EstacionDeTren
        maquina2.imprimirBillete();
     }
 
-    }
+}
